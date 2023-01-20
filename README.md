@@ -1,4 +1,4 @@
-# newman-reporter-json-steps
+# newman-reporter-json-ez
 
 JSON Reporter focused on executed steps in Newman report. Every step contains request, response and test states.
 

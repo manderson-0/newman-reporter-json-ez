@@ -10,7 +10,7 @@
  */
 
 const my = require('./package.json');
-const prog = 'NR-json-steps@' + my.version;
+const prog = 'NR-json-ez@' + my.version;
 
 function info(...msg) {
   console.log('INFO::' + prog, ...msg);
@@ -125,8 +125,8 @@ module.exports = function (newman, options) {
     }
     try {
       newman.exports.push({
-        name: 'json-steps-reporter',
-        default: 'newman-step-results.json',
+        name: 'json-ez-reporter',
+        default: 'newman-json-ez-results.json',
         path: options.jsonStepsExport,
         content: createLightSummary(o.summary, options)
       });

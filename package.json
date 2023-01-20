@@ -1,20 +1,20 @@
 {
-  "name": "newman-reporter-json-steps",
-  "version": "0.2.6",
-  "description": "JSON reporter oriented on step results of Newman execution.",
+  "name": "newman-reporter-json-ez",
+  "version": "0.0.1",
+  "description": "JSON reporter of assertion results of Newman execution for ez use as postman data file.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/prachstary/newman-reporter-json-steps.git"
+    "url": "git+https://github.com/manderson-0/newman-reporter-json-ez.git"
   },
   "keywords": [],
-  "author": "Lubomir Stary",
+  "author": "Marc Anderson",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/prachstary/newman-reporter-json-steps/issues"
+    "url": "https://github.com/manderson-0/newman-reporter-json-ez/issues"
   },
-  "homepage": "https://github.com/prachstary/newman-reporter-json-steps#readme"
+  "homepage": "https://github.com/manderson-0/newman-reporter-json-ez#readme"
 }
